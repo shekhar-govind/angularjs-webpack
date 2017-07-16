@@ -1,9 +1,13 @@
 <main>
-  <h1 class="title">Hello from Angular !</h1>
-
-  <!-- Images (and assets) are parsed and loaded from within the public directory -->
-  <img src="/img/logo.png">
+  <header>
+    <h1 class="title">Flickr Location App</h1>
+  </header>
+  <div class="container-fluid">
+    <div class="row"> 
+  	 <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12">
+  		  <location-map></location-map>
+  		  <photo-gallery></photo-gallery>
+  	 </div>
+    </div>
+  </div>
 </main>
-<footer>
-  <a ng-href="{{app.url}}">Webpack Angular Starter</a>
-</footer>
